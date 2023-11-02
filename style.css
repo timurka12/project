@@ -1,0 +1,30 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.recipe-form {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.recipe-list {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.recipe-list li {
+    margin-bottom: 10px;
+}
+
+.random-dishes {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.random-dishes li {
+    margin-bottom: 10px;
+}

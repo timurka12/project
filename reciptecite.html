@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Рецепты блюд</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Рецепты блюд</h1>
+
+    <div class="recipe-form">
+        <h2>Добавить рецепт</h2>
+        <form>
+            <label for="dish-name">Название блюда:</label>
+            <input type="text" id="dish-name">
+
+            <label for="ingredients">Ингредиенты:</label>
+            <textarea id="ingredients"></textarea>
+
+            <label for="instructions">Инструкции:</label>
+            <textarea id="instructions"></textarea>
+
+            <input type="submit" value="Добавить">
+        </form>
+    </div>
+
+    <div class="recipe-list">
+        <h2>Рецепты других пользователей</h2>
+        <ul id="recipe-list"></ul>
+    </div>
+
+    <div class="random-dishes">
+        <h2>Пять случайных блюд</h2>
+        <ul id="random-dishes"></ul>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
